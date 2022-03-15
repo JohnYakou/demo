@@ -1,0 +1,35 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello HomeController!{% endblock %}
+
+{% block body %}
+
+    {# La nav #}
+
+    {# <h1>{{myJohn}}</h1> #}
+    {# Un lien #}
+    {# <a href="{{path('app_contact')}}">Contact</a> #}
+
+    {# Un carousel #}
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://sc04.alicdn.com/kf/HTB1Fb.xIpXXXXayXpXXq6xXFXXXb.jpg" class="d-block w-100" style="height:45rem">
+    </div>
+    <div class="carousel-item">
+      <img src="https://i.pinimg.com/originals/bd/15/22/bd15227eff48d9351f3f2d16ce5f6b53.jpg" class="d-block w-100" style="height:45rem">
+    </div>
+    <div class="carousel-item">
+      <img src="https://images.fineartamerica.com/images-medium-large/green-landscape-vasile-movileanu.jpg" class="d-block w-100" style="height:45rem">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+{% endblock %}
